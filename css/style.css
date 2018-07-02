@@ -184,7 +184,7 @@ img{
     grid-area: 1 / 3 / span 1 / span 1;
     
 }
-/* =====================2===================== */
+/* =====================3===================== */
 .product3{
     grid-area: 8 / 1 / span 4 / span 5;
     display: inline-grid;
@@ -214,7 +214,6 @@ img{
 }
 .product3 .img-box{
     grid-area: 2 / 1 / span 2 / span 4;
-    grid-row-end: 4;
 }
 .product3 .subt-title{
     grid-area: 1 / 2 / span 1 / span 3;
@@ -231,4 +230,62 @@ img{
 }
 .product3 .sub-title-nbr{
     grid-area: 4 / 5 / span 1 / span 1;
+}
+/* =====================4===================== */
+
+.product4 {
+    grid-area: 8 / 6 / span 6 / span 3;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(5, 100px);
+}
+
+.product4 .border {
+    grid-area: 1 / 1 / span 2 / span 3;
+}
+
+.product4 .border .box {
+    width: calc(100% / 3 * 2);
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product4 .img-box {
+    grid-area: 2 / 2 / span 4 / span 2;
+}
+
+.product4 .subt-title {
+    grid-area: 2 / 1 / span 1 / span 2;
+    transform:rotate(-90deg) translateY(21px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.product4 .italic-title {
+    grid-area: 1 / 2 / span 1 / span 2;
+}
+
+.product4 .italic-title p {
+    transform:rotate(90deg) translateY(-50%);
+    text-align: right;
+    position: absolute;
+    right: 4px;
+    bottom: 65px;
+}
+.product4 .sub-title-nbr {
+    grid-area: 5 / 1 / span 1 / span 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.product4 .slash{
+    grid-area: 6 / 2 / span 1 / span 2;
+}
+.product4 .slash .box{
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
 }
