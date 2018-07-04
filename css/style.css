@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 :root{
-    --title: 6vw;
-    --title2: 2.5vw;
+    --title: 72px;
+    --title2: 48px;
     --title3: 24px;
     --logo: 20px;
     --p: 16px;
@@ -15,6 +15,12 @@
     --gray: rgba(0,0,0,.30);
     --light-gray: rgba(0,0,0,.10);
     --height: '';
+}
+@media (max-width:960px){
+    :root{
+        --title: 6vw;
+        --title2: 2.75vw;
+    }
 }
 @media (max-width:767px){
     :root{
