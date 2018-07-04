@@ -19,7 +19,7 @@
 @media (max-width:960px){
     :root{
         --title: 6vw;
-        --title2: 2.75vw;
+        --title2: 4.75vw;
     }
 }
 @media (max-width:767px){
